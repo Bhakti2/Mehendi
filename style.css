@@ -1,0 +1,52 @@
+body{
+    background-image: url(../src/Images/BackGroungImage.jpeg);
+}
+/* Navbar start */
+
+.Logo{
+    width: 24%;
+    height: 93px;
+    margin: -4px 0px 0px 20px;
+}
+
+.NAVBARFONT{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 30%;
+}
+
+.NAVBARFONT:hover{
+    text-decoration: underline;
+}
+
+.Navbar{
+    position: absolute;
+}
+
+/* Navbar end */
+
+/* Main background start */
+
+
+.bgImage{
+    height: 393px;
+    width: 112%;
+    margin-bottom: 16%;
+    margin-top: 20%;
+    border: 22px solid black;
+}
+
+.BackgroundHeading{
+    font-family: 'Playfair Display', serif;
+    margin: 13% 0% 0% 0%;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 1.1;
+}
+
+.MainButton{
+    margin-top: 10%;
+}
+
+/* Main background end */
