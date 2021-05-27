@@ -3,7 +3,6 @@ import BackgroudImage from "../Images/BackgroundImage.jpeg";
 import Img3 from "../Images/img3 (2).jpeg";
 import Img6 from "../Images/imag6.jpeg";
 import Bg from "../Images/bg.png"
-import video from "../videos/video.mp4";
 import { Container, Row, Col, Carousel, Button } from "react-bootstrap";
 
 function BackgroounfImage() {
