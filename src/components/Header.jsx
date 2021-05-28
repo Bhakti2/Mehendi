@@ -6,13 +6,15 @@ function Header() {
   return (
     <div>
         <Navbar bg="light" expand="lg" className="Navbar">
-          <Navbar.Brand href="#home"><img
+          {/* <Navbar.Brand href="#home"> */}
+          <img
           className="Logo"
           src={Logo}
           height={200}
           width={200}
           alt="Logo"
-        /></Navbar.Brand>
+        />
+        {/* </Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
