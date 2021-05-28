@@ -11,8 +11,8 @@ function BackgroounfImage() {
       backgroundImage: `url(${Bg})` 
     }}>
       <Container>
-        <Row>
-          <Col className="BackgroundHeading">
+        <Row xs={1} lg={2}>
+          <Col  className="BackgroundHeading">
             <p>Get Mehndi Artist</p>
             <p>for your wedding Day</p>
             <Button className="MainButton" variant="secondary" size="lg">
