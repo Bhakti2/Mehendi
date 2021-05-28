@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroudImage from "../Images/BackgroundImage.jpeg";
+import Img7 from "../Images/image7.jpeg";
 import Img3 from "../Images/img3 (2).jpeg";
 import Img6 from "../Images/imag6.jpeg";
 import Bg from "../Images/bg.png"
@@ -21,29 +21,34 @@ function BackgroounfImage() {
           </Col>
           <Col>
             <Carousel>
+            
               <Carousel.Item interval={2000}>
                 <img
-                  className="d-block w-100 bgImage"
-                  src={BackgroudImage}
+                  className="d-block bgImage"
+                  src={Img7}
                   alt="First slide"
                 />
               </Carousel.Item>
+              
 
+              
               <Carousel.Item interval={2000}>
                 <img
-                  className="d-block w-100 bgImage"
+                  className="d-block bgImage"
                   src={Img6}
                   alt="Second slide"
                 />
               </Carousel.Item>
-
+             
+            
               <Carousel.Item>
                 <img
-                  className="d-block w-100 bgImage"
+                  className="d-block bgImage"
                   src={Img3}
                   alt="Third slide"
                 />
               </Carousel.Item>
+              
             </Carousel>
           </Col>
         </Row>

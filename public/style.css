@@ -30,10 +30,11 @@ body{
 
 
 .bgImage{
-    height: 393px;
-    width: 112%;
+    height: auto;
+    width: 85%;
     margin-bottom: 16%;
     margin-top: 20%;
+    margin-left: 7%;
     border: 22px solid black;
 }
 
