@@ -5,7 +5,7 @@ import {Navbar,Nav} from 'react-bootstrap'
 function Header() {
   return (
     <div>
-        <Navbar  bg="light" expand="lg" className="Navbar">
+        <Navbar bg="light" expand="lg" className="Navbar">
           <Navbar.Brand href="#home"><img
           className="Logo"
           src={Logo}
