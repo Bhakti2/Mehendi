@@ -78,7 +78,7 @@ body{
 }
 
 .cardImage{
-    width: 80%;
+    width: auto;
     height: 287px;
     border-radius: 17%;
 }
