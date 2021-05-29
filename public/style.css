@@ -86,8 +86,9 @@ body{
 }
 
 .cardImage:hover{
-    transform: scaleY(1.2);
-    width: 100%;
+    transform: scaleY(2.2);
+    width: 150%;
+    height: 300px;
 }
 
 .lower{
