@@ -66,10 +66,11 @@ body{
     padding: 6% 0% 6% 0%;
     border-radius: 1%;
     margin: 3%;
+    margin-top: 17%;
 }
 
 .cardContainor:hover{
-    box-shadow: 5px 10px 18px #888888;
+    /* box-shadow: 5px 10px 18px #888888; */
 }
 
 .CardHeading{
@@ -78,9 +79,15 @@ body{
 }
 
 .cardImage{
+    border: 5px solid #da7f8f;
     width: auto;
     height: 287px;
     border-radius: 17%;
+}
+
+.cardImage:hover{
+    transform: scaleY(1.2);
+    width: 100%;
 }
 
 .lower{
