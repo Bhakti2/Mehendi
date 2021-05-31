@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from "./Header";
-import BackgroounfImage from "./Backgroud"
+import BackgroounfImage from "./Backgroud";
 import Service from "../components/Service";
-import Gallery from "./Gallery"
+import Gallery from "../components/Gallery";
 
 function App(){
     return <div >

@@ -1,16 +1,79 @@
 import React from "react";
-// import { ReactVideo } from "reactjs-media";
+import ReactPlayer from 'react-player';
+import video1 from "../videos/Video1.mp4";
+import video2 from "../videos/Video2.mp4";
+import video3 from "../videos/Video3.mp4";
+import video4 from "../videos/Video4.mp4";
+import video5 from "../videos/Video5.mp4";
+import video6 from "../videos/Video6.mp4";
+import video7 from "../videos/Video7.mp4";
+import { Carousel} from "react-bootstrap";
 
 function Gallery() {
-  return (
-      <h1>Hello</h1>
-    // <ReactVideo
-    //   src="https://www.example.com/url_to_video.mp4"
-    //   poster="https://www.example.com/poster.png"
-    //   primaryColor="red"
-    //   // other props
-    // />
-  );
+  return <div style={{textAlign:"center"}}>
+  <h1>Gallery</h1>
+
+<Carousel>
+  <Carousel.Item interval={1000}>
+  <ReactPlayer 
+      url={video1}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item>
+
+  <Carousel.Item interval={1000}>
+  <ReactPlayer 
+      url={video2}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item>
+
+  <Carousel.Item>
+  <ReactPlayer 
+      url={video3}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item>
+
+  <Carousel.Item>
+  <ReactPlayer 
+      url={video4}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item> <Carousel.Item>
+  <ReactPlayer 
+      url={video5}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item> <Carousel.Item>
+  <ReactPlayer 
+      url={video6}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item> <Carousel.Item>
+  <ReactPlayer 
+      url={video7}
+      controls
+      style={{margin:"auto"}}
+      className="videoImage"
+    />
+  </Carousel.Item>
+
+</Carousel>
+
+  </div>
 }
 
 export default Gallery;

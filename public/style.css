@@ -60,6 +60,7 @@ body{
 }
 
 .cardContainor{
+    font-family: 'Playfair Display', serif;
     height: 500px;
     width: 109%;
     text-align: center;
@@ -70,6 +71,7 @@ body{
 }
 
 .CardHeading{
+    font-family: 'Playfair Display', serif;
     text-align: center;
      margin: 3% 0% 3% 0%;
 }
@@ -91,3 +93,13 @@ body{
 
 
 /* service end */
+
+/* Gallrey start */
+
+.videoImage{
+    width: 859px;
+    height: 485px;
+}
+
+
+/* Gallrey end */
