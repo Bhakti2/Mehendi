@@ -15,10 +15,12 @@ function Gallery() {
 
 
 <Carousel>
-  <Carousel.Item interval={1000}>
+  <Carousel.Item interval={2000}>
   <ReactPlayer 
       url={video1}
       controls
+      playing="true"
+      onReady
       width="100%"
       height="500px"
       style={{margin:"auto"}}
@@ -26,10 +28,11 @@ function Gallery() {
     />
   </Carousel.Item>
 
-  <Carousel.Item interval={1000}>
+  <Carousel.Item interval={2000}>
   <ReactPlayer 
       url={video2}
       controls
+      playing="true"
        width="100%"
       height="500px"
       style={{margin:"auto"}}
@@ -43,6 +46,7 @@ function Gallery() {
   <ReactPlayer 
       url={video3}
       controls
+      playing="true"
        width="100%"
       height="500px"
       style={{margin:"auto"}}

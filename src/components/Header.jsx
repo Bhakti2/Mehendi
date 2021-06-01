@@ -17,10 +17,9 @@ function Header() {
         {/* </Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto" style={{ marginLeft: "39%"}}>
+            <Nav className="mr-auto" style={{ marginLeft: "48%"}}>
               <Nav.Link className="NAVBARFONT" href="#home">Home</Nav.Link>
               <Nav.Link className="NAVBARFONT" href="#home">Gallary</Nav.Link>
-              <Nav.Link className="NAVBARFONT" href="#link">Price</Nav.Link>
               <Nav.Link className="NAVBARFONT" href="#link">Contact</Nav.Link>
               <Nav.Link className="NAVBARFONT" href="#link">About</Nav.Link>
             </Nav>

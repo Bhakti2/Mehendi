@@ -9,7 +9,7 @@ function Service() {
   return (
     <div>
       <h1 className="CardHeading">Service</h1>
-      <div style={{backgroundColor:"#fffbdf"}}>
+      <div style={{backgroundColor:"#fff5fd"}}>
       <Container>
         <Row xs={1} md={2} lg={4}>
           <Col>
