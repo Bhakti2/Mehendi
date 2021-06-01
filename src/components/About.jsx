@@ -9,6 +9,7 @@ function About(){
         <Container>
             <Row xs={1} lg={2}>
                 <Col>
+               
                    <img className="BgImageArtist" src={Bg} alt="backgroundImage"/>
                    <img className="ImageArtist" src={Artist} alt="ArtistImage" />
                 </Col>
