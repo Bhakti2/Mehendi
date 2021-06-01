@@ -11,15 +11,18 @@ import { Carousel} from "react-bootstrap";
 
 function Gallery() {
   return <div style={{textAlign:"center"}}>
-  <h1>Gallery</h1>
+  <h1 className="CardHeading">Gallery</h1>
+
 
 <Carousel>
   <Carousel.Item interval={1000}>
   <ReactPlayer 
       url={video1}
       controls
+      width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
+      
     />
   </Carousel.Item>
 
@@ -27,51 +30,78 @@ function Gallery() {
   <ReactPlayer 
       url={video2}
       controls
+       width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
+     
     />
   </Carousel.Item>
+  
+
 
   <Carousel.Item>
   <ReactPlayer 
       url={video3}
       controls
+       width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
+     
     />
   </Carousel.Item>
+  
 
   <Carousel.Item>
   <ReactPlayer 
       url={video4}
       controls
+       width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
+      
     />
-  </Carousel.Item> <Carousel.Item>
+  </Carousel.Item>
+  
+
+
+   <Carousel.Item>
   <ReactPlayer 
       url={video5}
       controls
+       width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
+      
     />
-  </Carousel.Item> <Carousel.Item>
+  </Carousel.Item>
+  
+
+
+   <Carousel.Item>
   <ReactPlayer 
       url={video6}
       controls
+       width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
+      
     />
-  </Carousel.Item> <Carousel.Item>
+  </Carousel.Item>
+  
+
+
+   <Carousel.Item>
   <ReactPlayer 
       url={video7}
       controls
+       width="100%"
+      height="500px"
       style={{margin:"auto"}}
-      className="videoImage"
     />
   </Carousel.Item>
-
+  
 </Carousel>
+
 
   </div>
 }
