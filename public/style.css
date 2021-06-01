@@ -87,6 +87,10 @@ body{
     transform: scale(1.5,1.5);
 }
 
+.uppr{
+    align-items: center;
+}
+
 .lower{
     margin-top: 6%;
 }
@@ -134,14 +138,20 @@ body{
 
 @media (min-width:1025px){
    .BgImageArtist{
-    height: 565px;
+    height: 540px;
 
    }
 }
 
-@media (max-width:500px){
+@media (min-width:300px) and (max-width:400px){
    .BgImageArtist{
-    height: 370px;
+    height: 382px;
+   }
+}
+
+@media (min-width:400px) and (max-width:500px){
+   .BgImageArtist{
+    height: 423px;
    }
 }
 

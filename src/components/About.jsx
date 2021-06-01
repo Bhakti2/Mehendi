@@ -6,7 +6,7 @@ import Artist from "../Images/Artist.jpeg";
 function About(){
     return <div>
         <h1 className="CardHeading">About Artist</h1>
-        <Container>
+        <Container style={{padding:"2%"}}>
             <Row xs={1} lg={2}>
                 <Col>
                
@@ -14,7 +14,7 @@ function About(){
                    <img className="ImageArtist" src={Artist} alt="ArtistImage" />
                 </Col>
                 <Col>
-                    <p style={{margin:" 23% 0% 0% 15%"}}>
+                    <p style={{margin:" 8% 0% 0% 15%"}}>
                         Hii there, MySelf Bhargavi Parmar and I'm Professional Mehenedi Artist and bla bla...
                     </p>
                 </Col>
