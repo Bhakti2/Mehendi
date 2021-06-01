@@ -3,6 +3,7 @@ import Header from "./Header";
 import BackgroounfImage from "./Backgroud";
 import Service from "../components/Service";
 import Gallery from "../components/Gallery";
+import About from "../components/About";
 
 function App(){
     return <div >
@@ -10,6 +11,7 @@ function App(){
         <BackgroounfImage />
         <Service />
         <Gallery />
+        <About />
     </div> 
 }
 

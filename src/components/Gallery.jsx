@@ -19,8 +19,6 @@ function Gallery() {
   <ReactPlayer 
       url={video1}
       controls
-      playing="true"
-      onReady
       width="100%"
       height="500px"
       style={{margin:"auto"}}
@@ -32,7 +30,7 @@ function Gallery() {
   <ReactPlayer 
       url={video2}
       controls
-      playing="true"
+      // playing="true"
        width="100%"
       height="500px"
       style={{margin:"auto"}}
@@ -46,7 +44,7 @@ function Gallery() {
   <ReactPlayer 
       url={video3}
       controls
-      playing="true"
+      // playing="true"
        width="100%"
       height="500px"
       style={{margin:"auto"}}

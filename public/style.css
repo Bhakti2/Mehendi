@@ -95,7 +95,24 @@ body{
 /* service end */
 
 /* Gallrey start */
-
-
-
 /* Gallrey end */
+
+/* About artist start */
+
+.BgImageArtist{
+    width: 95%;
+    height: 565px;
+    /* position: absolute; */
+    margin: 5%;
+    position: relative;
+    border-radius: 6%;
+}
+
+.ImageArtist{
+    width: 71%;
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
+}
+
+/* About artist end */
