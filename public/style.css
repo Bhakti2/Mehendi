@@ -156,3 +156,20 @@ body{
 }
 
 /* About artist end */
+
+/* Contact section start */
+
+.Myform{
+    width: 86%;
+    /* align-items: center; */
+    /* margin: 2% 0% 2% 32%; */
+    margin: auto;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 2%;
+}
+
+.fromOutterCon{
+    padding: 2%;
+}
+
+/* Contact section end */

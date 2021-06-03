@@ -17,10 +17,11 @@ function Header() {
         {/* </Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto" style={{ marginLeft: "48%"}}>
+            <Nav className="mr-auto" style={{ marginLeft: "40%"}}>
               <Nav.Link className="NAVBARFONT" href="#home">Home</Nav.Link>
               <Nav.Link className="NAVBARFONT" href="#home">Gallary</Nav.Link>
               <Nav.Link className="NAVBARFONT" href="#link">Contact</Nav.Link>
+              <Nav.Link className="NAVBARFONT" href="#link">Appoinment</Nav.Link>
               <Nav.Link className="NAVBARFONT" href="#link">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
