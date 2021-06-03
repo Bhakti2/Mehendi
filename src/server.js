@@ -6,7 +6,7 @@ const creds = require('../src/config');
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
-    port: 587,
+    // port: 587,
     auth: {
     user: creds.USER,
     pass: creds.PASS
@@ -53,4 +53,4 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
-app.listen(3002)
+app.listen(3003)
