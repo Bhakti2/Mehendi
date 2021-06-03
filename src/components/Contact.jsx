@@ -32,22 +32,10 @@ class App extends React.Component {
       // </div>
 
       if (response.data.status === "success") {
-        {
-          window.location.hash === "#success" && (
-            <div id="success">
-              <p>Your message has been sent!</p>
-            </div>
-          );
-        }
+       alert("Msg sent");
         this.resetForm();
       } else if (response.data.status === "fail") {
-        {
-          window.location.hash === "#error" && (
-            <div id="error">
-              <p>An error occured while submitting the form.</p>
-            </div>
-          );
-        }
+       alert("erroorr..!!");
       }
     });
   }
@@ -103,18 +91,6 @@ class App extends React.Component {
               Submit
             </button>
 
-            <div>
-              {window.location.hash === "#success" && (
-                <div id="success">
-                  <p>Your message has been sent!</p>
-                </div>
-              )}
-              {window.location.hash === "#error" && (
-                <div id="error">
-                  <p>An error occured while submitting the form.</p>
-                </div>
-              )}
-            </div>
           </form>
         </div>
       </div>
