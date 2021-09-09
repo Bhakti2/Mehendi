@@ -4,7 +4,7 @@ import Bg from "../Images/bg.png";
 import Artist from "../Images/Artist.jpeg";
 
 function About(){
-    return <div>
+    return <div id="About">
         <h1 className="CardHeading">About Artist</h1>
         <Container style={{padding:"2%"}}>
             <Row xs={1} lg={2}>

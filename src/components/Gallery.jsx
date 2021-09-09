@@ -10,7 +10,7 @@ import video7 from "../videos/Video7.mp4";
 import { Carousel} from "react-bootstrap";
 
 function Gallery() {
-  return <div style={{textAlign:"center"}}>
+  return <div style={{textAlign:"center"}} id="gallary">
   <h1 className="CardHeading">Gallery</h1>
 
 

@@ -10,7 +10,7 @@ function App(){
     return <div >
         <Header />
         <BackgroounfImage />
-        <Service />
+        <Service  />
         <Gallery />
         <About />
         <Contact />

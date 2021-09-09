@@ -6,7 +6,7 @@ const creds = require('../src/config');
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
-    // port: 587,
+    port: 587,
     auth: {
     user: creds.USER,
     pass: creds.PASS

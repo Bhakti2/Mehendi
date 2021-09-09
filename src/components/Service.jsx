@@ -7,7 +7,7 @@ import Theme2 from "../Images/THeme (2).jpeg";
 
 function Service() {
   return (
-    <div>
+    <div id="service">
       <h1 className="CardHeading">Service</h1>
       <div style={{backgroundColor:"#fff5fd"}}>
       <Container>

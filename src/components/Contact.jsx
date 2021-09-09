@@ -46,7 +46,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="contact">
         <h1 className="CardHeading">Send us Meassage</h1>
 
         <div className="App fromOutterCon">

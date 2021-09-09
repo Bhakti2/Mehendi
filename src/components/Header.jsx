@@ -5,7 +5,7 @@ import {Navbar,Nav} from 'react-bootstrap'
 function Header() {
   return (
     <div>
-        <Navbar bg="light" expand="lg" className="Navbar">
+        <Navbar bg="light" expand="lg" className="Navbar" >
           {/* <Navbar.Brand href="#home"> */}
           <img
           className="Logo"
@@ -15,14 +15,14 @@ function Header() {
           alt="Logo"
         />
         {/* </Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto" style={{ marginLeft: "40%"}}>
-              <Nav.Link className="NAVBARFONT" href="#home">Home</Nav.Link>
-              <Nav.Link className="NAVBARFONT" href="#home">Gallary</Nav.Link>
-              <Nav.Link className="NAVBARFONT" href="#link">Contact</Nav.Link>
-              <Nav.Link className="NAVBARFONT" href="#link">Appoinment</Nav.Link>
-              <Nav.Link className="NAVBARFONT" href="#link">About</Nav.Link>
+          <Navbar.Toggle aria-controls="navbarScroll"  />
+          <Navbar.Collapse id="navbarScroll">
+            <Nav className="mr-auto" style={{ marginLeft: "40%"}} >
+              <Nav.Link className="NAVBARFONT" href="/">Home</Nav.Link>
+              <Nav.Link className="NAVBARFONT" href="#gallary">Gallary</Nav.Link>
+              <Nav.Link className="NAVBARFONT" href="#service">Service</Nav.Link>
+              <Nav.Link className="NAVBARFONT" href="#contact">Appoinment</Nav.Link>
+              <Nav.Link className="NAVBARFONT" href="#About">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>{" "}
