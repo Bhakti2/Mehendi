@@ -1,4 +1,13 @@
 {
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "name": "mehendistudio",
   "version": "0.1.0",
   "private": true,
@@ -29,12 +38,6 @@
     "video-react": "^0.14.1",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -52,5 +55,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@layer0/cli": "^3.16.9",
+    "@layer0/core": "^3.16.9",
+    "@layer0/devtools": "^3.16.9",
+    "@layer0/prefetch": "^3.16.9"
   }
 }
