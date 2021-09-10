@@ -14,7 +14,7 @@ function BackgroounfImage() {
         <Row xs={1} lg={2}>
           <Col  className="BackgroundHeading">
             <p>Get Mehndi Artist</p>
-            <p>for your wedding Day</p>
+            <p>for your wedding Functions</p>
             <Button className="MainButton" variant="secondary" size="lg">
               Book Now
             </Button>
