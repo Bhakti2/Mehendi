@@ -10,22 +10,22 @@ function Footer() {
 
       <div className="text-div">
         
-        <a href="https://www.whatsapp.com/" target="_blank" > <Icon path={mdiWhatsapp}
+        <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer" > <Icon path={mdiWhatsapp}
        className="icon"
         size={1}
         color="#7b787"
         /></a>
-        <a href="https://www.instagram.com/"> <Icon path={mdiInstagram}
+        <a href="https://www.instagram.com/"  target="_blank" rel="noreferrer"> <Icon path={mdiInstagram}
        className="icon"
         size={1}
         color="#7b787"
         /></a>
-         <a href="https://www.facebook.com/"><Icon path={mdiFacebook}
+         <a href="https://www.facebook.com/"  target="_blank" rel="noreferrer"><Icon path={mdiFacebook}
        className="icon"
         size={1}
         color="#7b787"
         /></a>
-        <a href="https://twitter.com/?lang=en"> <Icon path={mdiTwitter}
+        <a href="https://twitter.com/?lang=en"  target="_blank" rel="noreferrer"> <Icon path={mdiTwitter}
        className="icon"
         size={1}
         color="#7b787"
