@@ -47,7 +47,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="contact">
-        <h1 className="CardHeading">Send us Meassage</h1>
+        <h1 className="CardHeading">Book An Appoinment</h1>
 
         <div className="App fromOutterCon">
           <form

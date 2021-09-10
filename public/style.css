@@ -62,11 +62,11 @@ body{
 .cardContainor{
     font-family: 'Playfair Display', serif;
     height: 500px;
-    width: 109%;
+    /* width: 109%; */
     text-align: center;
     padding: 6% 0% 6% 0%;
     border-radius: 1%;
-    margin: 3%;
+    /* margin: 3%; */
     margin-top: 17%;
 }
 
@@ -173,3 +173,22 @@ body{
 }
 
 /* Contact section end */
+
+/* Footer start */
+
+.Footer-div{
+    width: 100%;
+    height: 200px;
+    background-color: #fff5fd;
+}
+
+.text-div{
+    text-align: center;
+}
+
+.icon{
+    margin: 80px 20px 20px;
+    
+}
+
+/* Footer End */
