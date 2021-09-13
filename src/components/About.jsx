@@ -15,7 +15,8 @@ function About(){
                 </Col>
                 <Col>
                     <p style={{margin:" 8% 0% 0% 15%"}}>
-                        Hii there, MySelf Bhargavi Parmar and I'm Professional Mehenedi Artist and bla bla...
+                        Hii there, MySelf Bhargavi Parmar and I'm Professional Mehenedi Artist and have 5+ year of expriance.
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                     </p>
                 </Col>
             </Row>
