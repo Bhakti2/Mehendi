@@ -20,7 +20,7 @@ function Footer() {
         size={1}
         color="#7b787"
         /></a>
-         <a href="https://www.facebook.com/"  target="_blank" rel="noreferrer"><Icon path={mdiFacebook}
+         <a href="https://www.facebook.com/profile.php?id=100011383932302"  target="_blank" rel="noreferrer"><Icon path={mdiFacebook}
        className="icon"
         size={1}
         color="#7b787"

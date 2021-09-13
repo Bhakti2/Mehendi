@@ -15,7 +15,7 @@ function BackgroounfImage() {
           <Col  className="BackgroundHeading">
             <p>Get Mehndi Artist</p>
             <p>for your wedding Functions</p>
-            <Button className="MainButton" variant="secondary" size="lg">
+            <Button className="MainButton" variant="secondary" size="lg" href="#contact">
               Book Now
             </Button>
           </Col>

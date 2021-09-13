@@ -19,6 +19,7 @@ function Service() {
               </div>
               <div className="lower">
                 <h2>Bridal Mehendi</h2>
+                <p>Price : 5000/-</p>
                 <p>Derscription</p>
               </div>
             </div>
@@ -30,6 +31,7 @@ function Service() {
               </div>
               <div className="lower">
                 <h2>Babyshower Mehendi</h2>
+                <p>Price : 3000/-</p>
                 <p>Derscription</p>
               </div>
             </div>
@@ -41,6 +43,7 @@ function Service() {
               </div>
               <div className="lower">
                 <h2>Engagment Mehendi</h2>
+                <p>Price : 2000/-</p>
                 <p>Derscription</p>
               </div>
             </div>
@@ -52,6 +55,7 @@ function Service() {
               </div>
               <div className="lower">
                 <h2>Theme Mehendi</h2>
+                <p>Price : Depends</p>
                 <p>Derscription</p>
               </div>
             </div>
